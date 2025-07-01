@@ -17,7 +17,7 @@
     "languages": "Languages",
     "relocation": "Relocation",
     "basedIn": "📍 Based in Germany | Chancenkarte Visa Holder",
-    "title": "Senior Fullstack JavaScript Developer",
+    "title": "Senior JavaScript Engineer | Full-Stack Expert in MEAN, MERN, MEVN, AWS, SQL & NoSQL Databases",
     "openTo": "Open to remote/on-site roles in Germany & Europe",
     "about": {
         "intro": "I am a passionate Senior Fullstack JavaScript Developer with over 6 years of experience, specializing in building robust and scalable web applications using technologies like Node.js, React, Angular, and AWS. With a strong focus on backend development and microservices architecture, I excel in creating solutions that enhance system performance, increase user engagement, and streamline deployment processes.",
@@ -28,6 +28,21 @@
             "backend": "Backend Mastery: Deep knowledge in building and optimizing REST APIs, GraphQL endpoints, and working with databases like PostgreSQL, MongoDB, and Redis.",
             "team": "Team Leadership: Proficient in leading cross-functional teams using Agile methodologies, ensuring timely delivery of complex projects.",
             "success": "Project Success: Known for reducing operational costs by implementing effective technology solutions and improving system performance by up to 50%."
+        }
+    },
+    "testimonials": {
+        "title": "What People Say",
+        "mobeen": {
+            "title": "VP Engineering, Dastgyr Technologies",
+            "feedback": "Working with Syed Yarooq has been a game-changer for my startup. He helped us launch our MVP in record time, with clean code and scalable architecture."
+        },
+        "rafay": {
+            "title": "Product Manager, KodersClub",
+            "feedback": "Syed is one of the best engineers I've worked with. His attention to detail, speed, and product sense are top-notch. Highly recommended for any frontend or backend work."
+        },
+        "muneeb": {
+            "title": "Founder, Inaequo Solutions",
+            "feedback": "We hired Syed for a critical backend overhaul. He not only delivered ahead of schedule but improved our performance by 40%. Will definitely work with him again."
         }
     }
 }

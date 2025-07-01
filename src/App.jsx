@@ -7,10 +7,21 @@ import Projects from "./Projects";
 import Expereince from "./Expereince";
 import { useTranslation } from 'react-i18next';
 import i18n from './i18n';
+import Testimonials from './Testimonials';
+import Contact from "./Contact";
 
 export default function App() {
   const [language, setLanguage] = useState('en');
   const { t } = useTranslation();
+
+  const [hideSensitiveInfo, setHideSensitiveInfo] = useState(false);
+
+  useEffect(() => {
+    const ref = document.referrer;
+    const blockedSources = ['fiverr.com', 'upwork.com'];
+    const shouldHide = blockedSources.some(domain => ref.includes(domain));
+    setHideSensitiveInfo(shouldHide);
+  }, []);
 
   // ✅ Prevent re-render loop
   useEffect(() => {
@@ -37,12 +48,14 @@ export default function App() {
 
         <h1 style={{ fontSize: 36, fontWeight: 'bold', marginBottom: 8 }}>Syed Yarooq Hussain</h1>
         <p style={{ fontSize: 18, color: '#0ea5e9', marginBottom: 4 }}>{t('title')}</p>
-        <p style={{ fontSize: 14, marginBottom: 15 }}>{t('basedIn')}</p>
-
-        <div style={{ marginBottom: 10 }}>
+        <p style={{ fontSize: 14, marginBottom: 15 }}>{t('basedIn')}</p>  
+        {!hideSensitiveInfo && (
+          <div style={{ marginBottom: 10 }}>
           <span style={{ marginRight: 12 }}>📧 <strong>syed.yarooq1701@gmail.com</strong></span>
           <span>📞 <strong>+49 152 1107 8765</strong></span>
         </div>
+        )}
+        
 
         <div style={{ fontSize: 14, color: '#374151', marginBottom: 15 }}>
           <p><strong>{t('languages')}:</strong> English (Fluent), Urdu (Native), German (Basic)</p>
@@ -50,11 +63,16 @@ export default function App() {
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: 10 }}>
-          <a href="https://github.com/syed-yarooq-hussain" target="_blank" rel="noreferrer" style={linkButton}>GitHub</a>
-          <a href="https://linkedin.com/in/syed-yarooq" target="_blank" rel="noreferrer" style={linkButton}>LinkedIn</a>
+          {!hideSensitiveInfo && (
+            <>
+              <a href="https://github.com/syed-yarooq-hussain" target="_blank" rel="noreferrer" style={linkButton}>GitHub</a>
+              <a href="https://linkedin.com/in/syed-yarooq" target="_blank" rel="noreferrer" style={linkButton}>LinkedIn</a>
+              <a href="mailto:syed.yarooq1701@gmail.com" style={linkButton}>{t('emailMe')}</a>
+            </>
+          )}
           <a href="https://www.fiverr.com/syedyarooq/buying?source=avatar_menu_profile" target="_blank" rel="noreferrer" style={linkButton}>Fiverr</a>
           <a href="https://www.upwork.com/freelancers/syedyarooqh" target="_blank" rel="noreferrer" style={linkButton}>Upwork</a>
-          <a href="mailto:syed.yarooq1701@gmail.com" style={linkButton}>{t('emailMe')}</a>
+          
         </div>
       </header>
 
@@ -86,9 +104,17 @@ export default function App() {
           </div>
         </section>
 
-        <section id="contact" style={sectionStyle}>
-          <h2 style={sectionTitle}>{t('contact')}</h2>
+        <section id="testimonials" style={sectionStyle}>
+          <h2 style={sectionTitle}>{'Testimonials'}</h2>
+          <Testimonials />
         </section>
+
+        {!hideSensitiveInfo && (
+          <section id="contact" style={sectionStyle}>
+            <h2 style={sectionTitle}>{t('contact')}</h2>
+            <Contact />
+          </section>
+        )}
       </main>
 
       <footer style={footerStyle}>

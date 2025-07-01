@@ -17,7 +17,7 @@
     "languages": "Sprachen",
     "relocation": "Umzugsbereitschaft",
     "basedIn": "📍 Ansässig in Deutschland | Chancenkarte-Inhaber",
-    "title": "Senior Fullstack JavaScript Entwickler",
+    "title": "Senior JavaScript-Entwickler | Full-Stack-Experte für MEAN, MERN, MEVN, AWS, SQL & NoSQL-Datenbanken",
     "openTo": "Offen für Remote- oder Vor-Ort-Arbeit in Deutschland & Europa",
     "about": {
         "intro": "Ich bin ein leidenschaftlicher Senior Fullstack JavaScript Entwickler mit über 6 Jahren Erfahrung...",
@@ -28,6 +28,21 @@
             "backend": "Backend-Expertise: Fundiertes Wissen im Aufbau und der Optimierung von REST-APIs, GraphQL-Endpunkten...",
             "team": "Teamführung: Erfahrung in der Leitung von funktionsübergreifenden Teams mit agilen Methoden...",
             "success": "Projekterfolg: Reduzierung der Betriebskosten durch effektive Technologielösungen um bis zu 50%..."
+        }
+    },
+    "testimonials": {
+        "title": "Was andere sagen",
+        "mobeen": {
+            "title": "VP Engineering, Dastgyr Technologies",
+            "feedback": "Die Zusammenarbeit mit Syed Yarooq war ein Wendepunkt für mein Startup. Er hat uns geholfen, unser MVP in Rekordzeit mit sauberem Code und skalierbarer Architektur zu starten."
+        },
+        "rafay": {
+            "title": "Produktmanagerin, KodersClub",
+            "feedback": "Syed ist einer der besten Entwickler, mit denen ich je gearbeitet habe. Seine Detailgenauigkeit, Geschwindigkeit und sein Produktverständnis sind erstklassig."
+        },
+        "muneed": {
+            "title": "Founder, Inaequo Solutions",
+            "feedback": "Wir haben Syed für eine wichtige Backend-Überholung engagiert. Er hat nicht nur vorzeitig geliefert, sondern auch die Leistung um 40% verbessert."
         }
     }
 }
