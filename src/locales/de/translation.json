@@ -1,0 +1,33 @@
+{
+    "nav": {
+        "about": "Über mich",
+        "skills": "Fähigkeiten",
+        "experience": "Erfahrung",
+        "projects": "Projekte",
+        "contact": "Kontakt"
+    },
+    "aboutMe": "🌟 Über mich",
+    "technicalSkills": "🛠 Technische Fähigkeiten",
+    "workExperience": "💼 Berufserfahrung",
+    "projectContributions": "🧪 Projektbeiträge",
+    "resume": "📄 Lebenslauf",
+    "downloadCV": "Lebenslauf herunterladen",
+    "contact": "📬 Kontakt",
+    "emailMe": "E-Mail senden",
+    "languages": "Sprachen",
+    "relocation": "Umzugsbereitschaft",
+    "basedIn": "📍 Ansässig in Deutschland | Chancenkarte-Inhaber",
+    "title": "Senior Fullstack JavaScript Entwickler",
+    "openTo": "Offen für Remote- oder Vor-Ort-Arbeit in Deutschland & Europa",
+    "about": {
+        "intro": "Ich bin ein leidenschaftlicher Senior Fullstack JavaScript Entwickler mit über 6 Jahren Erfahrung...",
+        "keySkills": "Wichtige Fähigkeiten und Expertise:",
+        "skills": {
+            "fullstack": "Fullstack-Entwicklung: Umfangreiche Erfahrung mit JavaScript, TypeScript, Node.js, React.js, Angular...",
+            "cloud": "Cloud und DevOps: Erfahrung in der Bereitstellung und Verwaltung von Anwendungen auf AWS, Docker...",
+            "backend": "Backend-Expertise: Fundiertes Wissen im Aufbau und der Optimierung von REST-APIs, GraphQL-Endpunkten...",
+            "team": "Teamführung: Erfahrung in der Leitung von funktionsübergreifenden Teams mit agilen Methoden...",
+            "success": "Projekterfolg: Reduzierung der Betriebskosten durch effektive Technologielösungen um bis zu 50%..."
+        }
+    }
+}

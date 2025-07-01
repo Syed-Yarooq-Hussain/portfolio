@@ -1,0 +1,33 @@
+{
+    "nav": {
+        "about": "About",
+        "skills": "Skills",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "aboutMe": "🌟 About Me",
+    "technicalSkills": "🛠 Technical Skills",
+    "workExperience": "💼 Work experience",
+    "projectContributions": "🧪 Project Contributions",
+    "resume": "📄 Resume",
+    "downloadCV": "Download My CV",
+    "contact": "📬 Contact",
+    "emailMe": "Email Me",
+    "languages": "Languages",
+    "relocation": "Relocation",
+    "basedIn": "📍 Based in Germany | Chancenkarte Visa Holder",
+    "title": "Senior Fullstack JavaScript Developer",
+    "openTo": "Open to remote/on-site roles in Germany & Europe",
+    "about": {
+        "intro": "I am a passionate Senior Fullstack JavaScript Developer with over 6 years of experience, specializing in building robust and scalable web applications using technologies like Node.js, React, Angular, and AWS. With a strong focus on backend development and microservices architecture, I excel in creating solutions that enhance system performance, increase user engagement, and streamline deployment processes.",
+        "keySkills": "Key Skills and Expertise:",
+        "skills": {
+            "fullstack": "Fullstack Development: Extensive experience with JavaScript, TypeScript, Node.js, React.js, Angular, and microservices architecture.",
+            "cloud": "Cloud and DevOps: Skilled in deploying and managing applications on AWS, Docker, and CI/CD pipelines, with a focus on scalability and efficiency.",
+            "backend": "Backend Mastery: Deep knowledge in building and optimizing REST APIs, GraphQL endpoints, and working with databases like PostgreSQL, MongoDB, and Redis.",
+            "team": "Team Leadership: Proficient in leading cross-functional teams using Agile methodologies, ensuring timely delivery of complex projects.",
+            "success": "Project Success: Known for reducing operational costs by implementing effective technology solutions and improving system performance by up to 50%."
+        }
+    }
+}
